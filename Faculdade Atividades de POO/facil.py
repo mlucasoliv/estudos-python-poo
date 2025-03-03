@@ -1,21 +1,14 @@
-# Questão 1
+#Questão 1
 
-a = int(input("Digite o primeiro número: "))
-b = int(input("Digite o segundo número: "))
+def soma(n1, n2):
+    return n1 + n2
 
-soma = a + b
+n1 = int(input("Digite o primeiro número: "))
+n2 = int(input("Digite o segundo número: "))
 
-print("O resultado da soma de a + b = ", soma)
+resultado = soma(n1, n2)
 
-# Questão 2
+print("A soma dos números {} + {} é igual a {}".format(n1, n2, resultado))
 
-n = int(input("Digite um número: "))
+#Questão 2
 
-if n % 2 == 0:
-  print("É par.")
-else:
-  print("É ímpar.")
-
-# Questão 3
-
-v = str(input("Digite uma palavra: "))
